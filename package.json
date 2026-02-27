@@ -9,10 +9,12 @@
 		"cf-typegen": "wrangler types"
 	},
 	"dependencies": {
-    "@langchain/textsplitters": "^1.0.1",
-    "nanoid": "^5.1.6"
+    "hono-agents": "^3.0.6",
+	"agents": "^0.6.0",
+    "hono": "^4.12.3"
   },
 	"devDependencies": {
+		"@types/node": "^25.3.2",
 		"typescript": "^5.0.4",
 		"wrangler": "^4.34.0"
 	}
